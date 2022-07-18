@@ -21,6 +21,3 @@ TypeScriptという言語で書かれたSNSサービスです。React/Next.js　
 ## 詳細
 
 細かく書く能力がありません。自分で精一杯です。何かあれば直接聞くか、demo43160@gmail.comまでご連絡ください。
-
-This is a really simple project that shows the usage of Next.js with TypeScript.
-This is a really simple project that shows the usage of Next.js with TypeScript.
