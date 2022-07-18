@@ -1,5 +1,7 @@
 import Head from "next/head";
 import Header from "./organisms/header";
+import HeaderLogo from "./atoms/HeaderLogo";
+import HeaderBack from "./atoms/HeaderBack";
 import Footer from "./organisms/footer";
 
 export default function Layout(props) {
@@ -13,12 +15,12 @@ export default function Layout(props) {
           crossOrigin="anonymous"
         ></link>
       </Head>
-      <Header header={props.header} />
+      <Header />
       <div className="container">
         <h3 className="my-3 text-primary text-center">{props.title}</h3>
         {props.children}
       </div>
-      <Footer footer="copyright hrkn63_hnm" />
+      <Footer footer="" />
     </div>
   );
 }
