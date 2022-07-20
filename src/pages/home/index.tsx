@@ -28,7 +28,7 @@ const Index = () => {
         <Sentence />
       </div>
       <div className="">
-        <Link href="/timeline">
+        <Link href="/home">
           <a>
             <Button type="button" buttonText="飛び込む" />
           </a>
